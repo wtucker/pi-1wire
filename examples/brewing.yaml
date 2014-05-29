@@ -1,0 +1,44 @@
+sensors:
+    mash_tun:
+        class: SysFSSensor
+        tags: [mash, sparge]
+        args:
+            serial: 28-0000054fe4d3
+            interval: 30
+    mash_outlet:
+        class: SysFSSensor
+        tags: [mash, sparge]
+        args:
+            serial: 28-000005509452
+            interval: 30
+    mash_inlet:
+        class: SysFSSensor
+        tags: [mash, sparge]
+        args:
+            serial: 28-000005509964
+            interval: 30
+    hlt_outlet:
+        class: SysFSSensor
+        tags: [mash, sparge]
+        args:
+            serial: 28-000005509e2a
+            interval: 30
+    boil_kettle:
+        class: SysFSSensor
+        tags: [boil, chill]
+        args:
+            serial: 28-00000550c556
+            interval: 30
+    chiller_inlet:
+        class: SysFSSensor
+        tags: [chill]
+        args:
+            serial: 28-00000550d2d0
+            interval: 30
+    chiller_outlet:
+        class: SysFSSensor
+        tags: [chill]
+        args:
+            serial: 28-00000550f473
+            interval: 30
+

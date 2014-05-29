@@ -1,0 +1,18 @@
+sensors:
+    mash:
+        class: MockSensor
+        args:
+            interval: 30
+            low: 63.8
+            high: 70.0
+            down_delta: .1
+            up_delta: .5
+    boil:
+        class: MockSensor
+        args:
+            interval: 30
+            low: 98
+            high: 100
+            down_delta: .1
+            up_delta: .1
+

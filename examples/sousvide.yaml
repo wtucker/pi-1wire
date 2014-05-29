@@ -1,0 +1,12 @@
+sensors:
+    internal:
+        class: SysFSSensor
+        args:
+            serial: 28-000005149356
+            interval: 30
+    heatstick:
+        class: SysFSSensor
+        args:
+            serial: 28-000005448941
+            interval: 30
+
